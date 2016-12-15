@@ -26,16 +26,30 @@ public class Main extends JFrame implents ActionListener {
 	
 	public Main(){
 		super("Area and Volume Calculator");
-		setBounds(0,0,100,100);
+		setBounds(0,0,500,500);
 		
 		JLabel labelRadius = new JLabel("Radius");
 		JLabel labelWidth = new JLabel("Width");
-		JLabel labelLength = new JLabel("Lenght");
+		JLabel labelLength = new JLabel("Length");
 		JLabel labelHeight = new JLabel("Height");
 		JLabel labalPerimeter = new JLabel("Perimeter");
 		JLabel labelBaseOne = new JLabel("Base 1");
-		JLabel labelBaseTWo = new JLabel("Base 2");
+		JLabel labelBaseTwo = new JLabel("Base 2");
 		JLabel labelApothem = new JLabel("Apothem");
 		
+		JTextBox boxOne = new JTextBox();
+		JTextBox boxTwo = new JTextBox();
+		JTextBox boxAnswer = new JTextBox();
 		
+		int labelX = 10;
+		int labelY = 30;
+		int labelH = 10;
+		int labelW = 50;
+		
+		int boxX = 70;
+		int boxY = 30;
+		int boxH = 10;
+		int boxW = 250;
+		
+		//labelRadius.setBounds
 	}
